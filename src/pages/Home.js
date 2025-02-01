@@ -101,7 +101,7 @@ export default function Home({ projects }) {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href=""
+            href="https://github.com/valentinavolgina2/resume"
             className="home-title-link w-100 h-100"
           >
             <div className="grid-box-content p-0">
