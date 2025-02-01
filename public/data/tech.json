@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "techList": [
+      {
+        "id": "1",
+        "url": "/images/skills/nodejs.svg",
+        "alt": "Nodejs logo"
+      },
+      {
+        "id": "2",
+        "url": "/images/skills/javascript.svg",
+        "alt": "JS logo"
+      },
+      {
+        "id": "3",
+        "url": "/images/skills/database.svg",
+        "alt": "Database logo"
+      },
+      {
+        "id": "4",
+        "url": "/images/skills/react.svg",
+        "alt": "React logo"
+      },
+      {
+        "id": "5",
+        "url": "/images/skills/mongodb.svg",
+        "alt": "MongoDB logo"
+      },
+      {
+        "id": "6",
+        "url": "/images/skills/java.svg",
+        "alt": "Java logo"
+      },
+      {
+        "id": "7",
+        "url": "/images/skills/css3.svg",
+        "alt": "CSS3 logo"
+      },
+      {
+        "id": "8",
+        "url": "/images/skills/aws.svg",
+        "alt": "AWS logo"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "techList": [
+      {
+        "id": "1",
+        "url": "/images/skills/csharp.svg",
+        "alt": "C Sharp logo"
+      },
+      {
+        "id": "2",
+        "url": "/images/skills/mysql.svg",
+        "alt": "MySQL logo"
+      },
+      {
+        "id": "3",
+        "url": "/images/skills/heroku.svg",
+        "alt": "Heroku logo"
+      },
+      {
+        "id": "4",
+        "url": "/images/skills/flutter.svg",
+        "alt": "Flutter logo"
+      },
+      {
+        "id": "5",
+        "url": "/images/skills/rails.svg",
+        "alt": "Rails logo"
+      },
+      {
+        "id": "6",
+        "url": "/images/skills/redis.svg",
+        "alt": "Redis logo"
+      },
+      {
+        "id": "7",
+        "url": "/images/skills/sql.svg",
+        "alt": "SQL logo"
+      },
+      {
+        "id": "8",
+        "url": "/images/skills/kotlin.svg",
+        "alt": "Kotlin logo"
+      }
+    ]
+  }
+]

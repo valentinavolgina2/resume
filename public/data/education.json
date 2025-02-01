@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "degree": "A.S. in Computing and Software Development",
+    "school": "Lake Washington Institute of Technology",
+    "date": "2018 - 2020",
+    "location": "Kirkland, WA",
+    "awards": [
+      "GPA: 4.0. President’s List for 6 quarters"
+    ]
+  },
+  {
+    "id": "2",
+    "degree": "B.S. and M.S. in Applied Mathematics",
+    "school": "Bauman Moscow State Technical University",
+    "date": "2003 - 2011",
+    "location": "Moscow, Russia"
+  }
+]

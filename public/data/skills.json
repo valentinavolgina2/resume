@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Web",
+    "description": "Node.js, Flutter, React, HTML5, CSS, Bootstrap"
+  },
+  {
+    "id": "2",
+    "title": "Programming",
+    "description": "Java, C#, Kotlin, JavaScript, ASP.NET, Ruby, TypeScript, Dart, SQL, AJAX"
+  },
+  {
+    "id": "3",
+    "title": "Testing",
+    "description": "Unit, component, E2E testing"
+  },
+  {
+    "id": "4",
+    "title": "Design",
+    "description": "REST API, MVC, Caching, SSE, WebSockets"
+  },
+  {
+    "id": "5",
+    "title": "Databases",
+    "description": "MongoDB, MySQL, Amazon DynamoDB, PostgreSQL"
+  },
+  {
+    "id": "6",
+    "title": "Cloud",
+    "description": "Heroku, Firebase, AWS"
+  }
+]

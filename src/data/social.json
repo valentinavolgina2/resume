@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "name": "Github",
+    "logo": "github.svg",
+    "filled": "githubFilled.svg",
+    "url": "https://github.com/valentinavolgina2"
+  },
+  {
+    "id": "2",
+    "name": "Linkedin",
+    "logo": "linkedin.svg",
+    "filled": "linkedinFilled.svg",
+    "url": "https://www.linkedin.com/in/valentinavolgina/"
+  },
+  {
+    "id": "3",
+    "name": "Resume",
+    "logo": "resume.svg",
+    "filled": "resumeFilled.svg",
+    "url": "/data/resume.pdf",
+    "file": "true"
+  }
+]

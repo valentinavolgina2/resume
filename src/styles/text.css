@@ -1,0 +1,53 @@
+:root {
+  --text-color-grey: #969595;
+}
+
+.title-h1 {
+  font-size: 3rem;
+}
+
+.title-h2 {
+  font-size: 2.5rem;
+}
+
+.title-h3 {
+  font-size: 2rem;
+}
+
+.text-p {
+  font-size: 1.5rem;
+}
+
+.text-small {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 1.75rem;
+}
+
+.text-xxxl {
+  font-size: 6rem;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-grey {
+  color: var(--text-color-grey);
+}
+
+.text-light {
+  color: var(--text-color);
+}
+
+.line-height {
+  line-height: 1.5;
+}
+
+.weight-700 {
+  font-weight: 700;
+}
+
+

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "Co-founder and Team Lead",
+    "company": "Seattle Sun Seeker",
+    "date": "2021 - 2023",
+    "location": "Bellevue, WA",
+    "description": "Built and led the Seattle Sun Seeker startup development team, consisting of two developers, a UX/UI designer, and a QA specialist."
+  },
+  {
+    "id": "2",
+    "title": "Merit-Based Scholarship",
+    "company": "Bauman Moscow State Technical University",
+    "date": "2003",
+    "location": "Moscow, Russia",
+    "description": "Awarded a Russian Government-funded scholarship for the entire duration of the program based on high entrance exam scores."
+  }
+]

@@ -1,0 +1,54 @@
+[{
+  "id": "1",
+  "start" : "2011",
+  "end": "2023",
+  "title": "Full-stack developer",
+  "company": "Seattle Sun Seeker (Startup)",
+  "location": "Bellevue, WA",
+  "results": [
+    "Built a REST API utilizing Node.js, Express, and MongoDB on the backend, ensuring secure and efficient data management and retrieval.",
+    "Used the Mapbox API to build a client-side component that colors locations on a map based on real-time weather, helping users find preferred spots.",
+    "Created a background job scheduler to update weather data during peak hours, boosting the user experience.",
+    "Built a notification component using Server-Sent Events for real-time messages, enhancing the user experience.",
+    "Worked with a UX designer to implement responsive UI designs compatible with various devices and browsers."
+  ]
+},
+{
+  "id": "2",
+  "start" : "2021",
+  "end": "2021",
+  "title": "Software developer engineer",
+  "company": "Amazon",
+  "location": "Seattle, WA",
+  "results": [
+    "Developed a component for uploading, verifying, and storing customer service information.",
+    "Implemented unit and component tests to validate the component’s behavior and functionality.",
+    "Created an email template for customer invoice notifications, enhancing the user experience."
+  ]
+},
+{
+  "id": "3",
+  "start" : "2020",
+  "end": "2020",
+  "title": "Full-stack developer intern",
+  "company": "Learning Management System Stealth Startup",
+  "location": "Seattle, WA",
+  "results": [
+    "Worked with a front-end developer to implement a calendar displaying student activities.",
+    "Implemented syntax highlighting for a code editor, improving code readability.",
+    "Created SQL Server stored procedures to display student metrics like quiz performance and course progress, enhancing website readability."
+  ]
+},
+{
+  "id": "4",
+  "start" : "2011",
+  "end": "2017",
+  "title": "1C Enterprise developer",
+  "company": "Euromaxx",
+  "location": "Moscow, Russia",
+  "results": [
+    "Utilized the 1C:Enterprise platform to create and enhance business automation software.",
+    "Created a new accounting system for goods and cash, boosting financial evaluation and profits."
+  ]
+}
+]

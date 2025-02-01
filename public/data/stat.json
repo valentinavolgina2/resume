@@ -1,0 +1,60 @@
+[
+  {
+    "id": "1",
+    "name": "Leetcode",
+    "logo": "leetcode.svg",
+    "gridClass": "grid-leetcode-stats",
+    "total": "274",
+    "additional": {
+      "type": "text",
+      "text": "Beats 96.2%",
+      "link": ""
+    },
+    "problems": [
+      {
+        "id": "1",
+        "level": "easy",
+        "solved": "140"
+      },
+      {
+        "id": "2",
+        "level": "med",
+        "solved": "128"
+      },
+      {
+        "id": "3",
+        "level": "hard",
+        "solved": "6"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "AlgoExpert",
+    "logo": "algoexpert.svg",
+    "gridClass": "grid-algoexpert-stats",
+    "total": "113",
+    "additional": {
+      "type": "link",
+      "text": "Certificate",
+      "link": "https://certificate.algoexpert.io/AE-a8bea81691"
+    },
+    "problems": [
+      {
+        "id": "1",
+        "level": "easy",
+        "solved": "31"
+      },
+      {
+        "id": "2",
+        "level": "med",
+        "solved": "71"
+      },
+      {
+        "id": "3",
+        "level": "hard",
+        "solved": "11"
+      }
+    ]
+  }
+]

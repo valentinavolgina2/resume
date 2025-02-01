@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "links.png", 
+    "year": "2023",
+    "name": "Links: A Simple Organizer for My Links",
+    "description": "A full-stack Flutter application that helps users organize links easily with customizable categories and tags for quick filtering.",
+    "github": "https://github.com/valentinavolgina2/links_app",
+    "website": "https://links-app-d361f.web.app/"
+  },
+  {
+    "id": 2,
+    "image": "askme.png",
+    "year": "2022", 
+    "name": "Ask Me: A Clone of Askme.fm App",
+    "description": "A Ruby on Rails app that enables registered users to ask questions and receive answers from other users.",
+    "github": "https://github.com/valentinavolgina2/askme",
+    "website": "https://ask-valentina.herokuapp.com/"
+  },
+  {
+    "id": 3,
+    "image": "bbq.png",
+    "year": "2022", 
+    "name": "BBQ Party: A Greate Tool to Create and Manage BBQ Events",
+    "description": "Ruby on Rails web app that helps to create and manage BBQ events.",
+    "github": "https://github.com/valentinavolgina2/bbq-party",
+    "website": ""
+  },
+  {
+    "id": 4,
+    "image": "balloon.png",
+    "year": "2022", 
+    "name": "Balloon Party Experts: A Simple Landing Page",
+    "description": "This landing page features a headline, key features, offered services, a call-to-action button, and testimonials.",
+    "github": "https://github.com/valentinavolgina2/valentinavolgina2.github.io",
+    "website": "https://valentinavolgina2.github.io/"
+  },
+  {
+    "id": 5,
+    "image": "todo.png",
+    "year": "2020", 
+    "name": "Mr-Checkoff: A To-Do List Java Servlet",
+    "description": "An MVC-based website that allows users to create and manage to-do lists.",
+    "github": "https://github.com/valentinavolgina2/mr-checkoff",
+    "website": ""
+  },
+  {
+    "id": 6,
+    "image": "game.png",
+    "year": "2019", 
+    "name": "Billy Goat: A Unity Game",
+    "description": "A unity action-adventure game where the player moves around and encounters enemies.",
+    "github": "https://github.com/valentinavolgina2/billy_goat",
+    "website": "https://valentinavolgina2.itch.io/billy-goat"
+  }
+]
