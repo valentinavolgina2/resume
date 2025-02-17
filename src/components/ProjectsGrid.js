@@ -8,7 +8,7 @@ import ProjectCard from "./ProjectCard";
 export default function ProjectsGrid({ projects }) {
   return (
     <div>
-      <div className="projects-grid mt-xxl">
+      <div className="projects-grid">
         <div className="projects-title">
           <h1 className="title-h1 mb-lg">
             Building Blocks: My Software Journey

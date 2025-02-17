@@ -31,20 +31,43 @@
 }
 
 .my {
-  margin: 1rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mx {
-  margin: 0 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .mb {
   margin-bottom: 1rem;
 }
 
+.mt {
+  margin-top: 1rem;
+}
+
+.mb-sm {
+  margin-bottom: 0.75rem;
+}
+
+.ml {
+  margin-left: 1rem;
+}
+
+.mx-lg {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .my-lg {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.ml-lg {
+  margin-left: 2rem;
 }
 
 .mt-lg {
@@ -58,6 +81,10 @@
 .my-xl {
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+.ml-xl {
+  margin-left: 4rem;
 }
 
 .mt-xl {
@@ -74,6 +101,14 @@
 
 .mb-xxl {
   margin-bottom: 8rem;
+}
+
+.mb-xxxl {
+  margin-bottom: 16rem;
+}
+
+.ml-lg {
+  margin-left: 2rem;
 }
 
 .p-0 {
@@ -95,6 +130,16 @@
   padding-left: 0.75rem;
 }
 
+.py-sm {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-xs {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .py-xs {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -108,6 +153,11 @@
 .px-lg {
   padding-right: 2rem;
   padding-left: 2rem;
+}
+
+.px-xl {
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 
 .py-lg {

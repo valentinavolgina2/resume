@@ -36,7 +36,7 @@ export default function Resume() {
 
   return (
     <div className="resume-container">
-      <div className="resume-title mt-xl mb-xxl">
+      <div className="resume-title mb-xxl">
         <h1 className="title-h1 text-light">Valentina</h1>
         <p className="text-p text-light">Software Engineer in USA</p>
       </div>
@@ -52,7 +52,7 @@ export default function Resume() {
       </h2>
       <div className="mb-lg">
         {skills.map((skill) => (
-          <div className="text-p my-sm">
+          <div key={skill.id} className="text-p my-sm">
             <b>{skill.title}:</b> {skill.description}
           </div>
         ))}

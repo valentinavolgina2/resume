@@ -18,8 +18,10 @@ export default function WorkItem({ work }) {
         </p>
         <p className="resume-item-location text-p text-grey">{work.location}</p>
         <ul className="m-0 work-results my text-p">
-          {work.results.map((result) => (
-            <li className="p-0 my-sm">{result}</li>
+          {work.results.map((result, index) => (
+            <li key={index} className="p-0 my-sm">
+              {result}
+            </li>
           ))}
         </ul>
       </div>

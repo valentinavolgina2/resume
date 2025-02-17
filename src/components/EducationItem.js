@@ -15,8 +15,10 @@ export default function EducationItem({ education }) {
         <p className="resume-item-location text-p text-grey">
           {education.school} ({education.location})
         </p>
-        {education.awards?.map((award) => (
-          <p className="education-award text-p my">{award}</p>
+        {education.awards?.map((award, index) => (
+          <p key={index} className="education-award text-p my">
+            {award}
+          </p>
         ))}
       </div>
     </div>
