@@ -84,4 +84,8 @@
   font-weight: 900;
 }
 
+.no-wrap {
+  white-space: nowrap;
+}
+
 

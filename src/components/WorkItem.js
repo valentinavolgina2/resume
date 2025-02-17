@@ -7,9 +7,9 @@ import "../styles/color.css";
 export default function WorkItem({ work }) {
   return (
     <div key={work.id} className="resume-item my text-light">
-      <div>
+      <div className="no-wrap">
         <p className="resume-item-dates text-p">
-          {work.start} - {work.end}
+          {work.start} — {work.end}
         </p>
       </div>
       <div>

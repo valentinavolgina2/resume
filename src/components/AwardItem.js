@@ -7,7 +7,7 @@ import "../styles/color.css";
 export default function AwardItem({ award }) {
   return (
     <div key={award.id} className="resume-item my text-light">
-      <div>
+      <div className="no-wrap">
         <p className="resume-item-dates text-p">{award.date}</p>
       </div>
       <div>

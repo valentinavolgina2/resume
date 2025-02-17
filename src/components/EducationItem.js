@@ -7,7 +7,7 @@ import "../styles/color.css";
 export default function EducationItem({ education }) {
   return (
     <div key={education.id} className="resume-item my text-light">
-      <div>
+      <div className="no-wrap">
         <p className="resume-item-dates text-p">{education.date}</p>
       </div>
       <div>

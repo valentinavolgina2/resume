@@ -220,11 +220,20 @@ ul {
   display: flex;
   justify-content: left;
   flex-direction: row;
-  gap: 0.5rem;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .resume-item{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 0;
+  }
 }
 
 .resume-item-dates{
-  width: 70px;
+  line-height: 3.3rem;
 }
 
 .work-results{
