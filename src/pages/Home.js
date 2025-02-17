@@ -9,10 +9,11 @@ import "../styles/color.css";
 import TechStack from "../components/TechStack";
 import SeattleSunSeeker from "../components/SeattleSunSeeker";
 import { Link } from "react-router-dom";
-import social from "../data/social.json";
+// import social from "../data/social.json";
 
 export default function Home({ projects }) {
   const [stat, setStat] = useState([]);
+  const [social, setSocial] = useState([]);
 
   const getLevelText = (level) => {
     switch (level) {
@@ -31,6 +32,10 @@ export default function Home({ projects }) {
     fetch("./data/stat.json")
       .then((response) => response.json())
       .then((data) => setStat(data));
+
+    fetch("./data/social.json")
+      .then((response) => response.json())
+      .then((data) => setSocial(data));
   }, []);
 
   return (

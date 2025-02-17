@@ -1,13 +1,21 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import "../styles/styles.css";
 import "../styles/color.css";
 
 import { Link } from "react-router-dom";
 
-import social from "../data/social.json";
+// import social from "../data/social.json";
 
 export default function Footer() {
+  const [social, setSocial] = useState([]);
   const currentYear = new Date().getFullYear();
+
+  useEffect(() => {
+    fetch("./data/social.json")
+      .then((response) => response.json())
+      .then((data) => setSocial(data));
+  }, []);
 
   return (
     <footer className="footer mt-xxl px-lg py-lg">
