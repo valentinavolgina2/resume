@@ -42,7 +42,8 @@ export default function Home({ projects }) {
     <div className="home-container">
       <div className="home-title-section">
         <div className="home-title text-light">
-          <h1 className="text-xxxl">Hi, I'm Valentina</h1>
+          <h1 className="title-h1">Hey, I’m Valentina</h1>
+          <h1 className="title-h1">I build cool web things!</h1>
           <a
             className="underline-link-box text-contrast"
             href="mailto:valentina.volgina2@gmail.com"
@@ -67,9 +68,9 @@ export default function Home({ projects }) {
         </div>
         <div className="home-title text-lg">
           <p className="my-xl">
-            A passionate software engineer specializing in full-stack web
-            applications, with a diverse background spanning personal projects,
-            startups, and corporate environments.
+            A passionate full-stack software engineer with experience in
+            personal projects, startups, and corporate environments. I love
+            turning ideas into functional, user-friendly web applications.
           </p>
         </div>
         <div className="home-title-logo-container">
@@ -92,7 +93,7 @@ export default function Home({ projects }) {
         </div>
       </div>
 
-      <div className="home-grid mb-xxxl">
+      <div className="home-grid mb-xxl">
         <div className="grid-box grid-stack">
           <div className="grid-box-content px py">
             <div className="grid-box-title py-xs px">
@@ -356,7 +357,13 @@ export default function Home({ projects }) {
       </div>
 
       <div id="featured-article" className="home-featured-section">
-        <h1 className="title-h1 text-white mb">Seattle Sun Seeker</h1>
+        <div className="article-divider mb-lg text-small">
+          <div className="article-divider-text">
+            <span>Highlight</span>
+          </div>
+        </div>
+
+        <h2 className="title-h2 text-white mb">Seattle Sun Seeker</h2>
         <SeattleSunSeeker></SeattleSunSeeker>
       </div>
     </div>

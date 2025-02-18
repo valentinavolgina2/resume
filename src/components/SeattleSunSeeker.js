@@ -13,9 +13,9 @@ export default function SeattleSunSeeker() {
         A web application that helps discover outdoor activity locations in
         Washington State based on their preferred weather conditions.
       </p>
-      <div className="featured-article-link-container my-xl">
+      <div className="featured-article-link-container mt-lg mb-xl">
         <a
-          className="featured-article-button px-lg py"
+          className="featured-article-button px py-sm"
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.seattlesunseeker.com/"
@@ -25,7 +25,7 @@ export default function SeattleSunSeeker() {
             src="images/web.svg"
             alt="web logo"
           />
-          <span className="text-light text-p ml">Website</span>
+          <span className="text-light text-small ml-sm">Website</span>
         </a>
       </div>
 
@@ -35,7 +35,7 @@ export default function SeattleSunSeeker() {
 
       <div className="featured-content-wrapper">
         <div id="featured-content">
-          <h2 id="about" className="title-h2 text-white mt-xl mb text-blue">
+          <h2 id="about" className="title-h2 text-white mt-xl mb weight-p">
             About
           </h2>
           <p className="text-p text-light mb-lg">
@@ -49,7 +49,7 @@ export default function SeattleSunSeeker() {
 
           <h2
             id="how-it-started"
-            className="title-h2 text-white mt-xl mb text-blue"
+            className="title-h2 text-white mt-xl mb weight-p"
           >
             How It Started
           </h2>
@@ -87,7 +87,7 @@ export default function SeattleSunSeeker() {
 
           <h2
             id="tech-stack-used"
-            className="title-h2 text-white mt-xl mb text-blue"
+            className="title-h2 text-white mt-xl mb weight-p"
           >
             Tech Stack Used
           </h2>
@@ -101,7 +101,10 @@ export default function SeattleSunSeeker() {
             and MongoDB.
           </p>
 
-          <h3 id="front-end" className="title-h3 text-white mt-xl text-purple">
+          <h3
+            id="front-end"
+            className="title-h3 text-white mt-xl weight-p text-italic"
+          >
             Front End
           </h3>
           <ul className="my text-p text-white tech-stack-ul ml-lg">
@@ -125,7 +128,10 @@ export default function SeattleSunSeeker() {
             </li>
           </ul>
 
-          <h3 id="back-end" className="title-h3 text-white mt-xl text-purple">
+          <h3
+            id="back-end"
+            className="title-h3 text-white mt-xl weight-p text-italic"
+          >
             Back End
           </h3>
           <ul className="my text-p text-white tech-stack-ul ml-lg">
@@ -148,7 +154,10 @@ export default function SeattleSunSeeker() {
             </li>
           </ul>
 
-          <h3 id="database" className="title-h3 text-white mt-xl text-purple">
+          <h3
+            id="database"
+            className="title-h3 text-white mt-xl weight-p text-italic"
+          >
             Database
           </h3>
           <ul className="my text-p text-white tech-stack-ul ml-lg">
@@ -170,7 +179,10 @@ export default function SeattleSunSeeker() {
             </li>
           </ul>
 
-          <h3 id="api" className="title-h3 text-white mt-xl text-purple">
+          <h3
+            id="api"
+            className="title-h3 text-white mt-xl weight-p text-italic"
+          >
             API
           </h3>
           <ul className="my text-p text-white tech-stack-ul ml-lg">
@@ -184,10 +196,13 @@ export default function SeattleSunSeeker() {
             </li>
           </ul>
 
-          <h3 id="cache" className="title-h3 text-white mt-xl text-purple">
+          <h3
+            id="cache"
+            className="title-h3 text-white mt-xl weight-p text-italic"
+          >
             Cache
           </h3>
-          <p className="text-p text-light">
+          <p className="text-p text-light mt">
             I implemented{" "}
             <strong className="text-white">
               client-side caching for static files
@@ -200,7 +215,7 @@ export default function SeattleSunSeeker() {
             resource-intensive.
           </p>
 
-          <h2 id="security" className="title-h2 text-white mt-xl mb text-blue">
+          <h2 id="security" className="title-h2 text-white mt-xl mb weight-p">
             Security
           </h2>
           <p className="text-p text-light mb">
@@ -215,15 +230,12 @@ export default function SeattleSunSeeker() {
             places are added or edited, enhancing data integrity and security.
           </p>
 
-          <h2
-            id="challenges"
-            className="title-h2 text-white mt-xl mb text-blue"
-          >
+          <h2 id="challenges" className="title-h2 text-white mt-xl mb weight-p">
             Challenges
           </h2>
           <h3
             id="openweather-api-pricing"
-            className="title-h3 text-white mt-xl mb text-purple"
+            className="title-h3 text-white mt mb weight-p text-italic"
           >
             OpenWeather API Pricing
           </h3>
@@ -271,7 +283,7 @@ export default function SeattleSunSeeker() {
 
           <h3
             id="weather-api-calls-optimization"
-            className="title-h3 text-white mt-xl mb text-purple"
+            className="title-h3 text-white mt-xl mb weight-p text-italic"
           >
             Weather API Calls Optimization
           </h3>
@@ -291,7 +303,7 @@ export default function SeattleSunSeeker() {
             </strong>{" "}
             and update it automatically in the background.
           </p>
-          <h4 className="title-h4 text-white mt-xl mb text-orange">
+          <h4 className="title-h4 text-white mt-xl mb weight-p">
             First Attempt: Using Node.js Timers
           </h4>
           <p className="text-p text-light mb">
@@ -321,7 +333,7 @@ export default function SeattleSunSeeker() {
             </li>
           </ul>
 
-          <h4 className="title-h4 text-white mt-xl mb text-orange">
+          <h4 className="title-h4 text-white mt-xl mb weight-p">
             Switching to a Job Scheduler
           </h4>
           <p className="text-p text-light mb">
@@ -337,7 +349,7 @@ export default function SeattleSunSeeker() {
 
           <h3
             id="background-jobs"
-            className="title-h3 text-white mt-xl text-purple"
+            className="title-h3 text-white mt-xl weight-p text-italic"
           >
             Background Jobs
           </h3>
@@ -379,7 +391,7 @@ export default function SeattleSunSeeker() {
           </p>
 
           <div id="job-libraries-table" className="my-lg">
-            <table className="text-p text-light text-center">
+            <table className="text-small text-light text-center">
               <thead>
                 <tr>
                   <th className="text-left text-white">Feature</th>
@@ -634,7 +646,7 @@ export default function SeattleSunSeeker() {
 
           <h3
             id="location-data-editing"
-            className="title-h3 text-white mt-xl mb text-purple"
+            className="title-h3 text-white mt-xl mb weight-p text-italic"
           >
             Location Data Editing
           </h3>
@@ -646,7 +658,7 @@ export default function SeattleSunSeeker() {
             before going live.
           </p>
 
-          <h4 className="title-h4 text-white mt-xl mb text-orange">
+          <h4 className="title-h4 text-white mt-xl mb weight-p">
             MongoDB Collections
           </h4>
           <p className="text-p text-light mb">
@@ -849,7 +861,7 @@ export default function SeattleSunSeeker() {
             </div>
           </div>
 
-          <h4 className="title-h4 text-white mt-xl mb text-orange">
+          <h4 className="title-h4 text-white mt-xl mb weight-p">
             How Does This Work in Practice?
           </h4>
 
@@ -905,7 +917,7 @@ export default function SeattleSunSeeker() {
 
           <h3
             id="new-message-notification"
-            className="title-h3 text-white mt-xl mb text-purple"
+            className="title-h3 text-white mt-xl mb weight-p text-italic"
           >
             Notification System
           </h3>
@@ -976,7 +988,7 @@ export default function SeattleSunSeeker() {
             back now, I realize a REST API would have been better.
           </p>
 
-          <h4 className="title-h4 text-white mt-xl mb text-orange">
+          <h4 className="title-h4 text-white mt-xl mb weight-p">
             System Workflow
           </h4>
           <ol className="my text-p text-white ml-lg">

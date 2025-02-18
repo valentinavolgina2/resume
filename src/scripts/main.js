@@ -1,8 +1,8 @@
 window.onload = function () {
   var ToC =
     "<nav role='navigation' class='table-of-contents mt-xl ml-lg px py'>" +
-    "<h2 class='text-lg mb-sm'>On this page</h2>" +
-    "<ul class='text-p text-white'>";
+    "<h2 class='text-p mb-sm'>On this page</h2>" +
+    "<ul class='text-small text-white'>";
 
   var newLine, title, link;
 
@@ -35,7 +35,7 @@ window.onload = function () {
       }
 
       if (h3Elements) {
-        ToC += "<ul class='text-p text-white ml'>" + h3Elements + "</ul>";
+        ToC += "<ul class='text-small text-white ml'>" + h3Elements + "</ul>";
       }
     });
 

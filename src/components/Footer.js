@@ -23,6 +23,7 @@ export default function Footer() {
       <div className="footer-line px py">
         {social.map((item, idx) => (
           <a
+            className="footer-logo-link"
             key={idx}
             target={item.file ? null : "_blank"}
             rel={item.file ? null : "noopener noreferrer"}
@@ -41,7 +42,7 @@ export default function Footer() {
       <div className="footer-line px py">
         <nav className="text-light">
           <ul className="m-0">
-            <li className="mx">
+            <li className="mx-lg">
               <Link
                 to="/"
                 className="underline-link-box text-light flex-column"
@@ -52,7 +53,7 @@ export default function Footer() {
                 <div></div>
               </Link>
             </li>
-            <li className="mx">
+            <li className="mx-lg">
               <Link
                 to="/resume"
                 className="underline-link-box text-light flex-column"
@@ -63,7 +64,7 @@ export default function Footer() {
                 <div></div>
               </Link>
             </li>
-            <li className="mx">
+            <li className="mx-lg">
               <Link
                 to="/projects"
                 className="underline-link-box text-light flex-column"
