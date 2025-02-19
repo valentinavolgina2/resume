@@ -52,12 +52,15 @@ body {
 
 .container {
   margin: 2rem auto;
-  max-width: 1500px;
+  max-width: 1200px;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-@media (max-width: 1570px) {
+@media (max-width: 700px) {
   .container {
-    margin: 2rem 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
@@ -914,6 +917,7 @@ ul {
 
 .article-divider {
   position: relative;
+  height: 1rem;
 
   &::before {
     content: " ";
@@ -970,7 +974,13 @@ ul {
 }
 
 @keyframes glow {
-  from { color: white; }
-  to { color: var(--background); }
+  from { 
+    color: white; 
+    font-size: 1rem;
+  }
+  to { 
+    color: var(--background);
+    font-size: 0.4rem; 
+  }
 }
 

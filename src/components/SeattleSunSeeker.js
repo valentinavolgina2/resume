@@ -30,7 +30,7 @@ export default function SeattleSunSeeker() {
       </div>
 
       <div className="image-box mb">
-        <img src="/images/weather.PNG" alt="" />
+        <img src="/images/seattlesunseeker.JPG" alt="" />
       </div>
 
       <div className="featured-content-wrapper">
