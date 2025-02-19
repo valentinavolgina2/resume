@@ -359,11 +359,11 @@ export default function Home({ projects }) {
       <div id="featured-article" className="home-featured-section">
         <div className="article-divider mb-lg text-small">
           <div className="article-divider-text">
-            <span>Highlight</span>
+            <span className="text-blink">Spotlight</span>
           </div>
         </div>
+        <h2 className="title-h2 text-white my-auto">Seattle Sun Seeker</h2>
 
-        <h2 className="title-h2 text-white mb">Seattle Sun Seeker</h2>
         <SeattleSunSeeker></SeattleSunSeeker>
       </div>
     </div>

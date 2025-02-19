@@ -2,6 +2,7 @@
 :root {
   --background: rgb(41 41 46);
   --contrast-color:#00a1a1;
+  --contrast-fade-color: #00a1a16e;
   --background-gradient: linear-gradient(rgba(25, 31, 50, 0.2), rgb(4 8 20 / 0.01)),
   rgb(4 8 20 / 0.8);
   --box-background: rgb(125 122 122 / 15%);
@@ -778,13 +779,12 @@ ul {
   box-shadow: var(--box-shadow-contrast-strong);
 }
 
+.image-box img{
+  width: 100%;
+}
 
 .featured-article-logo{
   height: 1.5rem;
-}
-
-.image-box img{
-  width: 100%;
 }
 
 .tech-stack-ul {
@@ -921,8 +921,7 @@ ul {
     position: absolute;
     top: 0.8rem;
     z-index: -1;
-    
-    border-bottom: 1px solid var(--contrast-color);
+    border-bottom: 1px solid var(--text-color);
   }
   
   .article-divider-text {
@@ -935,12 +934,13 @@ ul {
       z-index: -1;
       height: 100%;
       width: 100%;
-      padding-right: 1rem;
+      padding-right: 1.5rem;
       display: block;
       position: absolute;
       right: 0;
       top: 0;
       background: var(--background);
+      animation: shrink 2.5s ease-in-out infinite alternate;
     }
 
     &::before {
@@ -948,20 +948,29 @@ ul {
       z-index: -1;
       height: 100%;
       width: 100%;
-      padding-right: 1rem;
+      padding-right: 1.5rem;
       display: block;
       position: absolute;
       left: 0;
       top: 0;
       background: var(--background);
+      animation: shrink 2.5s ease-in-out infinite alternate;
     }
   }
 }
 
 .article-divider-text {
-  color: var(--contrast-color);
-
+  color: white;
+  animation: glow 2.5s ease-in-out infinite alternate;
 }
 
+@keyframes shrink {
+  from { padding-right: 1.5rem; }
+  to { padding-right: 0rem; }
+}
 
+@keyframes glow {
+  from { color: white; }
+  to { color: var(--background); }
+}
 
