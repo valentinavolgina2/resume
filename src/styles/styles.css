@@ -273,9 +273,9 @@ ul {
   display: flex;
   height: 100vh;
   flex-direction: column;
-  gap: 2rem;
-  padding-top: 12rem;
-  padding-bottom: 14rem;
+  /* gap: 2rem; */
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 @media screen and (max-width: 700px) {
