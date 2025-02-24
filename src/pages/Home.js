@@ -8,8 +8,7 @@ import "../styles/color.css";
 
 import TechStack from "../components/TechStack";
 import SeattleSunSeeker from "../components/SeattleSunSeeker";
-import { Link } from "react-router-dom";
-// import social from "../data/social.json";
+import { HashLink } from "react-router-hash-link";
 
 export default function Home({ projects }) {
   const [stat, setStat] = useState([]);
@@ -170,15 +169,19 @@ export default function Home({ projects }) {
           </a>
         </div>
         <div className="grid-box grid-education grid-box-link">
-          <Link to="/resume#education" className="home-title-link w-100 h-100">
+          <HashLink
+            smooth
+            to="/resume#education"
+            className="home-title-link w-100 h-100"
+          >
             <div className="grid-box-content px py grid-education-text text-light weight-700">
               <p className="text-p">COMPUTER SCIENCE</p>
               <p className="text-p">MATHEMATICS</p>
             </div>
-          </Link>
+          </HashLink>
         </div>
         <div className="grid-box grid-resume grid-box-link">
-          <Link to="/resume" className="home-title-link w-100 h-100">
+          <HashLink to="/resume#" className="home-title-link w-100 h-100">
             <div className="grid-box-content p-0">
               <div className="two-line-button text-white">
                 <div className="two-line-button-text-box px py">
@@ -209,7 +212,7 @@ export default function Home({ projects }) {
                 </div>
               </div>
             </div>
-          </Link>
+          </HashLink>
         </div>
         <div className="grid-box grid-projects">
           <div className="grid-projects-line px py">
@@ -272,14 +275,14 @@ export default function Home({ projects }) {
           </div>
         </div>
         <div className="grid-box grid-all-projects grid-box-link">
-          <Link
-            to="/projects"
+          <HashLink
+            to="/projects#"
             className="home-title-link text-contrast w-100 h-100"
           >
             <div className="grid-box-content px py grid-all-projects-text">
               <p className="x-y-center text-p">ALL PROJECTS</p>
             </div>
-          </Link>
+          </HashLink>
         </div>
 
         {stat.map((el) => (

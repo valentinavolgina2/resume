@@ -51,16 +51,14 @@ body {
 
 
 .container {
-  margin: 2rem auto;
+  margin: 0 auto;
   max-width: 1200px;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 2rem;
 }
 
 @media (max-width: 700px) {
   .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
   }
 }
 
@@ -106,7 +104,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 0;
   }
 }
 
@@ -232,7 +230,8 @@ ul {
 
 @media (max-width: 520px) {
   .resume-title{
-    margin-top: 2rem;
+    margin-top: 0;
+    margin-bottom: 4rem !important;
   }
 }
 
@@ -580,7 +579,7 @@ ul {
 }
 
 .grid-projects-line:first-child .projects-title{
-  font-family: cursive;
+  font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 .grid-projects-line:last-child .projects-title{
@@ -737,7 +736,7 @@ ul {
 .grid-education-text{
   border-radius: 8px;
   box-shadow: var(--box-shadow-contrast);
-  font-family: cursive;
+  font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 .grid-education-text p:first-child {

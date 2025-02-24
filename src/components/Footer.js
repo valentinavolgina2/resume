@@ -3,9 +3,7 @@ import { useState, useEffect } from "react";
 import "../styles/styles.css";
 import "../styles/color.css";
 
-import { Link } from "react-router-dom";
-
-// import social from "../data/social.json";
+import { HashLink } from "react-router-hash-link";
 
 export default function Footer() {
   const [social, setSocial] = useState([]);
@@ -43,37 +41,37 @@ export default function Footer() {
         <nav className="text-light">
           <ul className="m-0">
             <li className="mx-lg">
-              <Link
-                to="/"
+              <HashLink
+                to="/#"
                 className="underline-link-box text-light flex-column"
               >
                 <div className="underline-link-text text-p footer-nav-item">
                   Home
                 </div>
                 <div></div>
-              </Link>
+              </HashLink>
             </li>
             <li className="mx-lg">
-              <Link
-                to="/resume"
+              <HashLink
+                to="/resume#"
                 className="underline-link-box text-light flex-column"
               >
                 <div className="underline-link-text text-p footer-nav-item">
                   Resume
                 </div>
                 <div></div>
-              </Link>
+              </HashLink>
             </li>
             <li className="mx-lg">
-              <Link
-                to="/projects"
+              <HashLink
+                to="/projects#"
                 className="underline-link-box text-light flex-column"
               >
                 <div className="underline-link-text text-p footer-nav-item">
                   Projects
                 </div>
                 <div></div>
-              </Link>
+              </HashLink>
             </li>
           </ul>
         </nav>

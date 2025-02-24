@@ -5,6 +5,8 @@ import "../styles/spacing.css";
 import "../styles/color.css";
 
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 import WorkItem from "./WorkItem";
 import AwardItem from "./AwardItem";
 import EducationItem from "./EducationItem";
@@ -15,6 +17,19 @@ export default function Resume() {
   const [skills, setSkills] = useState([]);
   const [awards, setAwards] = useState([]);
   const [education, setEducation] = useState([]);
+
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      setTimeout(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100); // Delay execution slightly
+    }
+  }, [hash]);
 
   useEffect(() => {
     fetch("./data/experience.json")
@@ -71,9 +86,7 @@ export default function Resume() {
           <EducationItem education={item} key={item.id}></EducationItem>
         ))}
       </div>
-      <h2 id="education" className="resume-subtitle title-h2">
-        Certificates
-      </h2>
+      <h2 className="resume-subtitle title-h2">Certificates</h2>
       <div className="mb-lg">
         <p className="text-p my-sm">The Web Developer Bootcamp(Udemy), 2021</p>
         <p className="text-p my-sm">React 18 Course (Udemy), 2025</p>

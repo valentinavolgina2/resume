@@ -1,4 +1,6 @@
 window.onload = function () {
+  if (document.getElementById("featured-content") == null) return;
+
   var ToC =
     "<nav role='navigation' class='table-of-contents mt-xl ml-lg px py'>" +
     "<h2 class='text-p mb-sm'>On this page</h2>" +
