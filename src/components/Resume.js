@@ -21,17 +21,6 @@ export default function Resume() {
   const { hash } = useLocation();
 
   useEffect(() => {
-    if (hash) {
-      setTimeout(() => {
-        const element = document.querySelector(hash);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      }, 100); // Delay execution slightly
-    }
-  }, [hash]);
-
-  useEffect(() => {
     fetch("./data/experience.json")
       .then((response) => response.json())
       .then((data) => setExperience(data));
@@ -47,7 +36,16 @@ export default function Resume() {
     fetch("./data/education.json")
       .then((response) => response.json())
       .then((data) => setEducation(data));
-  }, []);
+
+    if (hash) {
+      setTimeout(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 500); // Delay execution slightly
+    }
+  }, [hash]);
 
   return (
     <div className="resume-container">
