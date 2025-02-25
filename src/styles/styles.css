@@ -578,14 +578,6 @@ ul {
   border-radius: 0 0 8px 8px;
 }
 
-.grid-projects-line:first-child .projects-title{
-  font-family: Comic Sans MS, Comic Sans, cursive;
-}
-
-.grid-projects-line:last-child .projects-title{
-  font-family: Copperplate, Copperplate Gothic Light, fantasy;
-}
-
 .projects-description {
   line-height: 1.5;
 }
@@ -736,7 +728,6 @@ ul {
 .grid-education-text{
   border-radius: 8px;
   box-shadow: var(--box-shadow-contrast);
-  font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 .grid-education-text p:first-child {

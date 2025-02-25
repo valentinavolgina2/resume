@@ -98,4 +98,27 @@
   font-style: italic;
 }
 
+.kalam-light {
+  font-family: "Kalam", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kalam-regular {
+  font-family: "Kalam", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.aclonica-light {
+  font-family: "Aclonica", serif;
+  font-weight: 300;
+  font-style: normal;
+}
 

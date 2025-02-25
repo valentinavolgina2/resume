@@ -174,7 +174,7 @@ export default function Home({ projects }) {
             to="/resume#education"
             className="home-title-link w-100 h-100"
           >
-            <div className="grid-box-content px py grid-education-text text-light weight-700">
+            <div className="grid-box-content px py grid-education-text text-light kalam-bold">
               <p className="text-p">COMPUTER SCIENCE</p>
               <p className="text-p">MATHEMATICS</p>
             </div>
@@ -216,7 +216,7 @@ export default function Home({ projects }) {
         </div>
         <div className="grid-box grid-projects">
           <div className="grid-projects-line px py">
-            <p className="projects-title title-h2">My Links</p>
+            <p className="projects-title title-h2 kalam-regular">My Links</p>
             <p className="projects-description text-p mb">
               A full-stack Flutter web application for links organization.
             </p>
@@ -245,7 +245,7 @@ export default function Home({ projects }) {
             </a>
           </div>
           <div className="grid-projects-line px py">
-            <p className="projects-title title-h2">Ask Me</p>
+            <p className="projects-title title-h2 aclonica-light">Ask Me</p>
             <p className="projects-description text-p">
               A Ruby on Rails web application, a clone of Askme.fm.
             </p>
