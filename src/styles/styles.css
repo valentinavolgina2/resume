@@ -291,6 +291,10 @@ body {
   list-style-type: none;
 }
 
+.download-logo {
+  height: 1.2rem;
+}
+
 .home-container{
   text-align: left;
 }

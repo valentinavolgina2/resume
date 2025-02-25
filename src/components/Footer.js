@@ -16,7 +16,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="footer mt-xxl px-lg py-lg">
+    <footer className="footer mt-xl px-lg py-lg">
       {/* logos are from here: https://www.svgrepo.com/ */}
       <div className="footer-line px py footer-links-container">
         <div className="social-icons">

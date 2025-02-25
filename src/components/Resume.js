@@ -52,6 +52,20 @@ export default function Resume() {
       <div className="resume-title mb-xxl">
         <h1 className="title-h1 text-light">Valentina</h1>
         <p className="text-p text-light">Software Engineer in USA</p>
+        <div className="featured-article-link-container mt-lg mb-xl">
+          <a
+            className="featured-article-button px py-sm"
+            href="/data/resume.pdf"
+            download="Resume-Valentina Volgina"
+          >
+            <img
+              className="featured-article-logo"
+              src="images/download.svg"
+              alt="web logo"
+            />
+            <span className="text-light text-small ml-sm">Download</span>
+          </a>
+        </div>
       </div>
 
       <h2 className="resume-subtitle my-lg title-h2">Work Experience</h2>
