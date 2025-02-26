@@ -1,8 +1,10 @@
-window.onload = function () {
+export default function createTOC() {
   if (document.getElementById("featured-content") == null) return;
 
+  if (document.getElementById("tof") !== null) return;
+
   var ToC =
-    "<nav role='navigation' class='table-of-contents mt-xl ml-lg px py'>" +
+    "<nav id='tof' role='navigation' class='table-of-contents mt-xl ml-lg px py'>" +
     "<h2 class='text-p mb-sm'>On this page</h2>" +
     "<ul class='text-small text-white'>";
 
@@ -46,4 +48,4 @@ window.onload = function () {
   document
     .getElementById("featured-content")
     .insertAdjacentHTML("afterend", ToC);
-};
+}

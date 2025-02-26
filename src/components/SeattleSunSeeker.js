@@ -1,12 +1,18 @@
 import React from "react";
+import { useEffect } from "react";
+
 import "../styles/styles.css";
 import "../styles/text.css";
 import "../styles/spacing.css";
 import "../styles/color.css";
 
-import "../scripts/main.js";
+import createTOC from "../scripts/toc.js";
 
 export default function SeattleSunSeeker() {
+  useEffect(() => {
+    createTOC();
+  }, []);
+
   return (
     <div className="featured-article">
       <p className="text-p text-light mb">
