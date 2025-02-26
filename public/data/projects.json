@@ -1,56 +1,86 @@
 [
   {
     "id": 1,
-    "image": "links.png", 
-    "year": "2023",
-    "name": "Links: A Simple Organizer for My Links",
-    "description": "A full-stack Flutter application that helps users organize links easily with customizable categories and tags for quick filtering.",
-    "github": "https://github.com/valentinavolgina2/links_app",
-    "website": "https://links-app-d361f.web.app/"
+    "image": "", 
+    "year": "2025",
+    "name": "resume",
+    "description": "A personal website showcasing my resume, projects, and professional journey.",
+    "github": "https://github.com/valentinavolgina2/resume",
+    "website": "http://www.valtinadev.com/",
+    "technologies": [
+      "React", "JavaScript", "CSS3"
+    ]
   },
   {
     "id": 2,
-    "image": "askme.png",
-    "year": "2022", 
-    "name": "Ask Me: A Clone of Askme.fm App",
-    "description": "A Ruby on Rails app that enables registered users to ask questions and receive answers from other users.",
-    "github": "https://github.com/valentinavolgina2/askme",
-    "website": "https://ask-valentina.herokuapp.com/"
+    "image": "links.png", 
+    "year": "2023",
+    "name": "links-app",
+    "description": "A full-stack Flutter application that helps users organize links easily with customizable categories and tags for quick filtering.",
+    "github": "https://github.com/valentinavolgina2/links_app",
+    "website": "https://links-app-d361f.web.app/",
+    "technologies": [
+      "Dart", "Flutter", "Firebase"
+    ]
   },
   {
     "id": 3,
-    "image": "bbq.png",
+    "image": "askme.png",
     "year": "2022", 
-    "name": "BBQ Party: A Greate Tool to Create and Manage BBQ Events",
-    "description": "Ruby on Rails web app that helps to create and manage BBQ events.",
-    "github": "https://github.com/valentinavolgina2/bbq-party",
-    "website": ""
+    "name": "ask-me",
+    "description": "A Ruby on Rails app that enables registered users to ask questions and receive answers from other users.",
+    "github": "https://github.com/valentinavolgina2/askme",
+    "website": "https://ask-valentina.herokuapp.com/",
+    "technologies": [
+      "Ruby on Rails", "JavaScript", "SQL", "PostgreSQL"
+    ]
   },
   {
     "id": 4,
-    "image": "balloon.png",
+    "image": "bbq.png",
     "year": "2022", 
-    "name": "Balloon Party Experts: A Simple Landing Page",
-    "description": "This landing page features a headline, key features, offered services, a call-to-action button, and testimonials.",
-    "github": "https://github.com/valentinavolgina2/valentinavolgina2.github.io",
-    "website": "https://valentinavolgina2.github.io/"
+    "name": "bbq-party",
+    "description": "Ruby on Rails web app that helps to create and manage BBQ events.",
+    "github": "https://github.com/valentinavolgina2/bbq-party",
+    "website": "",
+    "technologies": [
+      "Ruby on Rails", "JavaScript", "SQL", "PostgreSQL"
+    ]
   },
   {
     "id": 5,
-    "image": "todo.png",
-    "year": "2020", 
-    "name": "Mr-Checkoff: A To-Do List Java Servlet",
-    "description": "An MVC-based website that allows users to create and manage to-do lists.",
-    "github": "https://github.com/valentinavolgina2/mr-checkoff",
-    "website": ""
+    "image": "balloon.png",
+    "year": "2022", 
+    "name": "big-air-joy",
+    "description": "This landing page features a headline, key features, offered services, a call-to-action button, and testimonials.",
+    "github": "https://github.com/valentinavolgina2/valentinavolgina2.github.io",
+    "website": "https://valentinavolgina2.github.io/",
+    "technologies": [
+      "HTML", "CSS3"
+    ]
   },
   {
     "id": 6,
+    "image": "todo.png",
+    "year": "2020", 
+    "name": "mr-checkoff",
+    "description": "An MVC-based website that allows users to create and manage to-do lists.",
+    "github": "https://github.com/valentinavolgina2/mr-checkoff",
+    "website": "",
+    "technologies": [
+      "Java", "SQL", "MySQL"
+    ]
+  },
+  {
+    "id": 7,
     "image": "game.png",
     "year": "2019", 
-    "name": "Billy Goat: A Unity Game",
+    "name": "billy-goat",
     "description": "A unity action-adventure game where the player moves around and encounters enemies.",
     "github": "https://github.com/valentinavolgina2/billy_goat",
-    "website": "https://valentinavolgina2.itch.io/billy-goat"
+    "website": "https://valentinavolgina2.itch.io/billy-goat",
+    "technologies": [
+      "CSharp", "Unity"
+    ]
   }
 ]

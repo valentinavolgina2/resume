@@ -115,13 +115,17 @@ body {
 
 /* Card Styles */
 .project-card {
-  background: var(--box-background);
   border: none;
   box-shadow:var(--box-shadow);
 
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .project-card:hover {
@@ -141,31 +145,32 @@ body {
 }
 
 .project-card-info {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
   text-align: left;
 }
 
 .project-card-title {
   line-height: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .project-card-text {
   line-height: 1.7rem;
 }
 
-.project-card-img{
-  width: 450px;
-  height: 300px;
-  display: block;
-  object-fit:cover;
-  object-position: center;
+.project-card-links{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-card-links-box {
+  display: flex;
+  gap: 0.5rem;
 }
 
 .project-card-logo{
-  width: 40px;
-  height: auto;
+  height: 2rem;
   display: inline;
   object-fit: contain;
   object-position: center;
