@@ -41,7 +41,7 @@ export default function ProjectCard({ project }) {
       </div>
       <div className="project-card-links">
         <div className="project-card-links-box">
-          {project.technologies.map((tech, index) => (
+          {project.technologies?.map((tech, index) => (
             <img
               key={`project${project.id}_tech${index}`}
               className="project-card-logo"

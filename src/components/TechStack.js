@@ -16,14 +16,14 @@ export default function TechStack() {
     <div className="tech-stack-container">
       <div className="tech-stack-line">
         <div className="tech-stack-animation">
-          {techSets[0]?.techList.map((skill) => (
+          {techSets[0]?.techList?.map((skill) => (
             <div className="tech-stack-img-box" key={skill.id}>
               <img className="tech-stack-img" src={skill.url} alt={skill.alt} />
             </div>
           ))}
         </div>
         <div className="tech-stack-animation tech-stack-animation-left">
-          {techSets[0]?.techList.map((skill) => (
+          {techSets[0]?.techList?.map((skill) => (
             <div className="tech-stack-img-box" key={skill.id}>
               <img className="tech-stack-img" src={skill.url} alt={skill.alt} />
             </div>
@@ -32,14 +32,14 @@ export default function TechStack() {
       </div>
       <div className="tech-stack-line">
         <div className="tech-stack-animation animation-reverse">
-          {techSets[1]?.techList.map((skill) => (
+          {techSets[1]?.techList?.map((skill) => (
             <div className="tech-stack-img-box" key={skill.id}>
               <img className="tech-stack-img" src={skill.url} alt={skill.alt} />
             </div>
           ))}
         </div>
         <div className="tech-stack-animation animation-reverse tech-stack-animation-right">
-          {techSets[1]?.techList.map((skill) => (
+          {techSets[1]?.techList?.map((skill) => (
             <div className="tech-stack-img-box" key={skill.id}>
               <img className="tech-stack-img" src={skill.url} alt={skill.alt} />
             </div>

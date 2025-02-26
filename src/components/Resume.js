@@ -70,7 +70,7 @@ export default function Resume() {
 
       <h2 className="resume-subtitle my-lg title-h2">Work Experience</h2>
       <div className="mb-lg">
-        {experience.map((work) => (
+        {experience?.map((work) => (
           <WorkItem work={work} key={work.id}></WorkItem>
         ))}
       </div>
@@ -78,7 +78,7 @@ export default function Resume() {
         Technical skills
       </h2>
       <div className="mb-lg">
-        {skills.map((skill) => (
+        {skills?.map((skill) => (
           <div key={skill.id} className="text-p my-sm">
             <b>{skill.title}:</b> {skill.description}
           </div>
@@ -86,7 +86,7 @@ export default function Resume() {
       </div>
       <h2 className="resume-subtitle title-h2">Leadership and Awards</h2>
       <div className="mb-lg">
-        {awards.map((award) => (
+        {awards?.map((award) => (
           <AwardItem award={award} key={award.id}></AwardItem>
         ))}
       </div>
@@ -94,7 +94,7 @@ export default function Resume() {
         Education
       </h2>
       <div className="mb-lg">
-        {education.map((item) => (
+        {education?.map((item) => (
           <EducationItem education={item} key={item.id}></EducationItem>
         ))}
       </div>

@@ -23,7 +23,7 @@ export default function ProjectsGrid({ projects }) {
             of programming languages and technologies.
           </p>
         </div>
-        {projects.map((project) => (
+        {projects?.map((project) => (
           <ProjectCard project={project} key={project.id}></ProjectCard>
         ))}
       </div>

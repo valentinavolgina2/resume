@@ -20,7 +20,7 @@ export default function Footer() {
       {/* logos are from here: https://www.svgrepo.com/ */}
       <div className="footer-line px py footer-links-container">
         <div className="social-icons">
-          {social.map((item, idx) => (
+          {social?.map((item, idx) => (
             <a
               className="footer-logo-link"
               key={idx}

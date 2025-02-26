@@ -73,7 +73,7 @@ export default function Home({ projects }) {
           </p>
         </div>
         <div className="home-title-logo-container">
-          {social.map((item) => (
+          {social?.map((item) => (
             <a
               key={item.id}
               className="home-title-button"
@@ -285,7 +285,7 @@ export default function Home({ projects }) {
           </HashLink>
         </div>
 
-        {stat.map((el) => (
+        {stat?.map((el) => (
           <div key={el.id} className={`grid-box ${el.gridClass} px py`}>
             <div className="grid-leetcode-line">
               <div className="grid-leetcode-colm stat-total title-h3 mtr-auto weight-700">
@@ -341,7 +341,7 @@ export default function Home({ projects }) {
               )}
             </div>
             <div className="grid-leetcode-line">
-              {el.problems.map((problem) => (
+              {el.problems?.map((problem) => (
                 <div
                   key={problem.id}
                   className={`grid-leetcode-colm width-30 stat-level-box weight-700 py-xxs px-sm stat-level-${problem.level} text-dark`}
