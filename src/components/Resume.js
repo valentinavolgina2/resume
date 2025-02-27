@@ -74,7 +74,7 @@ export default function Resume() {
           <WorkItem work={work} key={work.id}></WorkItem>
         ))}
       </div>
-      <h2 id="techSkills" className="resume-subtitle title-h2">
+      <h2 id="tech-skills" className="resume-subtitle title-h2">
         Technical skills
       </h2>
       <div className="mb-lg">

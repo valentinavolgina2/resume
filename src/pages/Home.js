@@ -93,16 +93,24 @@ export default function Home({ projects }) {
       </div>
 
       <div className="home-grid mb-xxl">
-        <div className="grid-box grid-stack">
-          <div className="grid-box-content px py">
-            <div className="grid-box-title py-xs px">
-              <div>
-                <img src="/images/stack.svg" alt="" />
+        <div className="grid-box grid-stack grid-box-link">
+          <HashLink
+            smooth
+            to="/resume#tech-skills"
+            className="home-title-link w-100 h-100"
+          >
+            <div className="grid-box-content px py">
+              <div className="grid-box-title py-xs px">
+                <div>
+                  <img src="/images/stack.svg" alt="" />
+                </div>
+                <div className="grid-box-title-text text-p text-white">
+                  Tech stack
+                </div>
               </div>
-              <div className="grid-box-title-text text-p">Tech stack</div>
+              <TechStack></TechStack>
             </div>
-            <TechStack></TechStack>
-          </div>
+          </HashLink>
         </div>
         <div className="grid-box grid-certificates grid-box-link">
           <a
