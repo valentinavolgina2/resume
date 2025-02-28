@@ -12,7 +12,6 @@ import AwardItem from "./AwardItem";
 import EducationItem from "./EducationItem";
 
 export default function Resume() {
-  // to-do add edit data functional
   const [experience, setExperience] = useState([]);
   const [skills, setSkills] = useState([]);
   const [awards, setAwards] = useState([]);
